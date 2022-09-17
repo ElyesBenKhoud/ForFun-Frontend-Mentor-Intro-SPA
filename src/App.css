@@ -1,0 +1,29 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.left {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    color: hsl(0, 0%, 41%);
+    margin-right: 3rem;
+    padding: 5px;
+    cursor: pointer;
+}
