@@ -71,14 +71,14 @@
 .more-btn{
   background-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   width: 150px;
   height: 50px;
   text-align: center;
   font-size: 18px;
   cursor: pointer;
-
+margin-top: 2rem;
 }
 
 .more-btn:hover{
@@ -92,11 +92,20 @@
   align-items: center;
   padding: 20px;
   column-gap: 30px;
+  margin-top: 4rem;
 }
 
 .Left-information{
 display: flex;
 flex-direction: column;
 align-content: space-around;
+margin-left: 7rem;
+margin-top: 5rem;
+}
 
+.desc{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  line-height: 28px;
 }
