@@ -109,3 +109,11 @@ margin-top: 5rem;
   letter-spacing: 2px;
   line-height: 28px;
 }
+
+@media (max-width :970px) {
+  .Landing-Container{
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+}

@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <>
       <header className="hedhed">
-        <ul class="left">
+        <ul className="left">
           <li>Features</li>
           <li>Company</li>
           <li>Career</li>
           <li>About</li>
         </ul>
-        <ul class="right">
+        <ul className="right">
           <li>Login</li>
           <li>Register</li>
         </ul>
