@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header>
+      <header className="hedhed">
         <ul class="left">
           <li>Features</li>
           <li>Company</li>

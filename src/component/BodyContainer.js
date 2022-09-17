@@ -9,10 +9,15 @@ const BodyContainer = () => {
     <>
       <div className="Landing-Container">
         <div className="Left-information">
-          <div className="title">Make remote work</div>
+          <div className="title">
+            Make <br />
+            remote work
+          </div>
           <div className="desc">
-            Get your team in sync.No matter your location.Streamlines
-            processes,Create team rituals, and watch productivity soar.
+            Get your team in sync.No matter your location.
+            <br />
+            Streamlines processes,Create team rituals,
+            <br /> and watch productivity soar.
           </div>
           <button className="more-btn">Learn more</button>
           <div className="logos">

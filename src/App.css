@@ -9,21 +9,26 @@
   display: flex;
   flex-direction: column;
 }
+
+.hedhed{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .left {
-    float: left;
     display: flex;
     flex-direction: row;
     gap: 20px;
     list-style-type: none;
     color: hsl(0, 0%, 41%);
     cursor: pointer;
+    margin-left: 5rem;
 }
 .left li:hover{
   color: black;
 }
 
 .right {
-    float: right;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -32,6 +37,7 @@
     margin-right: 3rem;
     padding: 5px;
     cursor: pointer;
+    margin-right: 6rem;
 }
 .right li:hover{
   color: black;
@@ -42,16 +48,13 @@
 .Landing-Container{
   display: flex;
   flex-direction: row;
-
-  margin: auto;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 2rem;
-  margin-left: 5rem;
 }
 
 
 .img-img{
-  width: 25vw;
+  width: 470px;
 }
 
 .title{
@@ -92,7 +95,8 @@
 }
 
 .Left-information{
+display: flex;
+flex-direction: column;
+align-content: space-around;
 
-  margin-top: 3rem;
-  column-gap: 50px;
 }
