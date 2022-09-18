@@ -8,6 +8,14 @@ function App() {
       <div className="homePage">
         <Header />
         <BodyContainer />
+        <div className="footer">
+          Copyright ©
+          <a href="https://www.linkedin.com/in/mohamedelyes-benkhoud/">
+            {" "}
+            Elyes Ben khoud
+          </a>{" "}
+          2022
+        </div>
       </div>
     </>
   );
