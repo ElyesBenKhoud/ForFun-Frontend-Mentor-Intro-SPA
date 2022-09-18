@@ -6,6 +6,7 @@ const Header = () => {
       <header className="hedhed">
         <ul className="left">
           <li>Features</li>
+
           <li>Company</li>
           <li>Career</li>
           <li>About</li>
